@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Login Form</title>
+</head>
+<body>
+<form action="LoginController" method="post">
+<table>
+<tr>
+<td>UserName</td>
+<td><input type="text" name="userName"></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="passWord"></td>
+</tr>
+<tr>
+<td>Select City</td>
+<td><select name="Select City" multiple="multiple">
+<option>--Select City--</option>
+<option id="Ahmedabad">Ahmedabad</option>
+<option id="Surat">Surat</option>
+<option id="Vadodara">Vadodara</option>
+</select></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+<input type="radio" name="gender">Transgender</td>
+</tr>
+<tr>
+<td>Address</td>
+<td><textarea rows="3" cols="50"></textarea></td>
+</tr>
+<tr>
+<td><input type="submit"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
